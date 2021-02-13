@@ -37,7 +37,8 @@ rostopic list
 # This should work now: roslaunch gazebo_ros empty_world.launch
 
 # Install libfranka and franka_ros
-sudo apt install ros-kinetic-libfranka ros-kinetic-franka-ros
+sudo apt install ros-melodic-libfranka ros-melodic-franka-ros
+# If melodic doesnt exist, try kinetic
 
 * Install via catkin
 mkdir -p ~/catkin_ws/src
