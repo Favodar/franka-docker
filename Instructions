@@ -8,9 +8,9 @@ sudo apt install ros-melodic-desktop
 
 sudo apt install gazebo9
 sudo gazebo
-which gzserver
-which gzclient
-
+which gzserversudo apt install ros-kinetic-libfranka ros-kinetic-franka-ros
+which gzclientsudo apt install ros-kinetic-libfranka ros-kinetic-franka-ros
+sudo apt install ros-kinetic-libfranka ros-kinetic-franka-ros
 # If you installed from source to the default location it should say:
 # /usr/local/bin/gzserver
 # /usr/local/bin/gzclient
@@ -35,6 +35,9 @@ rostopic list
 # /gazebo/set_model_state
 
 # This should work now: roslaunch gazebo_ros empty_world.launch
+
+# Install libfranka and franka_ros
+sudo apt install ros-kinetic-libfranka ros-kinetic-franka-ros
 
 * Install via catkin
 mkdir -p ~/catkin_ws/src
